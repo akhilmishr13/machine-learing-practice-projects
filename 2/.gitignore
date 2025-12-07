@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# AWS
+.aws/
+*.pem
+
+# Streamlit
+.streamlit/
+
+# Logs
+*.log
+
+# Data files
+data/datasets/
+data/processed/
+
+# Model artifacts
+models/
+*.pkl
+*.joblib
