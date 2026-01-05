@@ -1,0 +1,27 @@
+{
+  "name": "journalapp-fullstack",
+  "version": "1.0.0",
+  "description": "JournalApp - Digital Creative Journaling App (Full Stack)",
+  "scripts": {
+    "start": "bash start.sh",
+    "start:backend": "cd backend && source venv/bin/activate && python -m app.main",
+    "start:frontend": "cd JournalApp && npm start",
+    "start:ios": "cd JournalApp && npm run ios",
+    "start:android": "cd JournalApp && npm run android",
+    "setup": "bash setup-all.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "keywords": [
+    "journal",
+    "react-native",
+    "fastapi",
+    "mobile"
+  ],
+  "author": "",
+  "license": "MIT"
+}
+
+
